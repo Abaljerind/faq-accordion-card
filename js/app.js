@@ -13,3 +13,11 @@ dropdown.addEventListener("click", function () {
   }
   question.classList.toggle("bold-active-state");
 });
+
+// close dropdown outside outside the arrow
+window.addEventListener("click", function (e) {
+  if (e.target != dropdown) {
+    dropdown.classList.remove("rotate");
+    answer.classList.add("hidden");
+  }
+});
