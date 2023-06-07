@@ -740,6 +740,11 @@ video {
   color: hsl(238 29% 16% / var(--tw-text-opacity));
 }
 
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(240 6% 50% / var(--tw-text-opacity));
+}
+
 .opacity-75 {
   opacity: 0.75;
 }
