@@ -27,6 +27,17 @@ for (let i = 0; i < $(".dropdown").length; i++) {
   })(i);
 }
 
+for (let j = 0; j < $(".dropdown").length; j++) {
+  $(".dropdown")
+    .eq(j)
+    .on("click", function () {
+      if ($(".dropdown").eq(j).hasClass("absolute")) {
+        $(".dropdown").eq(j).toggleClass("rotate");
+      }
+      $(".question").eq(j).toggleClass("bold-active-state");
+    });
+}
+
 // close dropdown outside outside the arrow
 // window.addEventListener("click", function (e) {
 //   if (e.target != dropdown) {
