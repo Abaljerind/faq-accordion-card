@@ -37,12 +37,3 @@ for (let j = 0; j < $(".dropdown").length; j++) {
       $(".question").eq(j).toggleClass("bold-active-state");
     });
 }
-
-// close dropdown outside outside the arrow
-// window.addEventListener("click", function (e) {
-//   if (e.target != dropdown) {
-//     dropdown.classList.remove("rotate");
-//     answer.classList.add("hidden");
-//     question.classList.remove("bold-active-state");
-//   }
-// });
