@@ -730,6 +730,11 @@ video {
   letter-spacing: 0.025em;
 }
 
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(240 6% 50% / var(--tw-text-opacity));
+}
+
 .text-lightGrayishBlue {
   --tw-text-opacity: 1;
   color: hsl(240 5% 91% / var(--tw-text-opacity));
@@ -738,11 +743,6 @@ video {
 .text-veryDarkDesaturatedBlue {
   --tw-text-opacity: 1;
   color: hsl(238 29% 16% / var(--tw-text-opacity));
-}
-
-.text-darkGrayishBlue {
-  --tw-text-opacity: 1;
-  color: hsl(240 6% 50% / var(--tw-text-opacity));
 }
 
 .opacity-75 {
@@ -765,16 +765,6 @@ video {
 }
 
 .rotate {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.focus\:rotate-180:focus {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.active\:rotate-180:active {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
