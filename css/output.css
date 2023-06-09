@@ -868,10 +868,6 @@ video {
     margin-right: 0.25rem;
   }
 
-  .lg\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -896,16 +892,12 @@ video {
     width: 380px;
   }
 
-  .lg\:w-\[55\%\] {
-    width: 55%;
+  .lg\:w-\[65\%\] {
+    width: 65%;
   }
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
   }
 
   .lg\:px-6 {
@@ -913,9 +905,9 @@ video {
     padding-right: 1.5rem;
   }
 
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:text-left {
