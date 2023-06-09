@@ -20,6 +20,7 @@
   <body class="bg-gradient-to-b from-softViolet to-softBlue">
     <div class="container mx-auto w-96 px-1 py-8 lg:w-full lg:py-0">
       <div class="mx-auto my-32 flex flex-wrap rounded-2xl border bg-white p-4 shadow-lg lg:w-[55%]">
+        <!-- img for mobile devices -->
         <div class="relative mx-auto w-3/4">
           <img src="images/illustration-woman-online-mobile.svg" alt="Image about woman standing in front of big monitor." class="absolute -top-[140px] w-full lg:hidden" />
           <img
@@ -27,17 +28,18 @@
             alt="Shadow for illustration of the woman."
             class="absolute -top-10 w-full items-center bg-cover bg-no-repeat opacity-75 lg:hidden"
           />
+        </div>
 
-          <!-- img for sm devices and so on -->
-          <img
-            src="images/illustration-woman-online-desktop.svg"
-            alt="Image about woman standing in front of big monitor."
-            class="absolute -left-48 top-20 hidden w-[400px] lg:z-10 lg:inline-block"
-          />
+        <!-- img for md devices and so on -->
+        <div class="mt-[-48px] items-center rounded-3xl lg:h-[465px] lg:w-[380px] lg:flex-col">
+          <div class="relative left-[-20px] top-[20px] hidden h-full w-[450px] lg:block">
+            <img src="./images/illustration-box-desktop.svg" alt="illustration of a box" class="relative left-[-92px] top-[210px] z-30" />
+            <div class="relative top-[-36.5%] h-full w-[450px] overflow-hidden">
+              <img src="./images/illustration-woman-online-desktop.svg" alt="illustration of a woman in front of a desktop" class="absolute left-[-75px] top-[15%] z-20" />
 
-          <img src="images/illustration-box-desktop.svg" alt="Box with text @" class="absolute -left-52 top-[185px] hidden w-44 lg:z-20 lg:inline-block" />
-
-          <img src="images/bg-pattern-desktop.svg" alt="Shadow for illustration of the woman." class="absolute -left-[440px] -top-12 hidden w-10/12 scale-150 lg:inline-block" />
+              <img src="./images/bg-pattern-desktop.svg" alt="A pattern for shadow effect" class="relative left-[-290px] top-[40px] scale-[2] transform" />
+            </div>
+          </div>
         </div>
 
         <div class="mx-auto mt-28 px-1 font-kumbh lg:my-10 lg:mr-1 lg:mt-20 lg:w-1/2 lg:px-6">
