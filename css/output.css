@@ -697,10 +697,6 @@ video {
   align-items: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -734,10 +730,6 @@ video {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-no-repeat {
@@ -829,10 +821,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:relative {
-    position: relative;
-  }
-
   .lg\:z-10 {
     z-index: 10;
   }
@@ -876,14 +864,6 @@ video {
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:overflow-hidden {
-    overflow: hidden;
-  }
-
-  .lg\:bg-bg-desktop {
-    background-image: url(/images/bg-pattern-desktop.svg);
   }
 
   .lg\:px-6 {
