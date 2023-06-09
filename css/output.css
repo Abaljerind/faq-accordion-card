@@ -882,6 +882,10 @@ video {
     overflow: hidden;
   }
 
+  .lg\:bg-bg-desktop {
+    background-image: url(/images/bg-pattern-desktop.svg);
+  }
+
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
